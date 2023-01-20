@@ -3,37 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
-header {
-    border: solid 3px red;
+header{
+    background-color: rgb(1, 39, 58);
     width: 100%;
-    height: 40vh;
-    background-color: #00293f;
-    display: flex;
-    flex-wrap: wrap;
-
-
 }
-
-h1 {
-    color: white;
-    width: 50%;
+.logo{
+    width: 20%;
     border: solid 3px red;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: row;
-
-
-}
-
-.Menu li {
-    border: solid 2px yellow;
-    width: 50%;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-family: 1rem;
-    color: rgb(41, 179, 182);
 }
