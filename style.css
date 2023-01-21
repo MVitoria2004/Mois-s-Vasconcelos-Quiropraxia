@@ -3,18 +3,45 @@
     margin: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     background-color: rgb(1, 39, 58);
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 4px yellow;
 }
-.sectionLogo{
-    border:solid 2px red;
-    display:flex;
+
+.sectionLogo {
+    display: flex;
     justify-content: center;
 }
-.logo{
-    width: 59%;
-    border: solid 3px red;
+
+.logo {
+    width: 70%;
+    
+}
+
+.menu ul {
+    width: 62vw;
+    height: 100%;
+    border: solid 3px turquoise;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.menuA {
+    border: solid 4px greenyellow;
+    width: 20vw;
+    font-size: 20px;
+    color: rgb(0, 197, 203);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
 }
