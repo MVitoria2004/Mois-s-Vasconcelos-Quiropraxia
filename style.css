@@ -10,6 +10,8 @@ header {
     display: flex;
     flex-direction: row;
     border: solid 4px yellow;
+    display: flex;
+    flex-direction: column;
 }
 
 .sectionLogo {
@@ -18,17 +20,16 @@ header {
 }
 
 .logo {
-    width: 70%;
-    
+    width: 30vw;
+
 }
 
 .menu ul {
-    width: 62vw;
-    height: 100%;
-    border: solid 3px turquoise;
+    width: 100%;
+    height: 5vw;
+    
     list-style: none;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 
@@ -37,7 +38,7 @@ header {
 }
 
 .menuA {
-    border: solid 4px greenyellow;
+    border: solid 4px
     width: 20vw;
     font-size: 20px;
     color: rgb(0, 197, 203);
