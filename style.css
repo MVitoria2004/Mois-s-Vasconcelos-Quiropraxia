@@ -66,7 +66,8 @@ main {
     }
 
     .endereço {
-        margin-top: 30px;
-        width: 80vw;
+        width:90%;
+        display: flex;
+        align-items: center;   
     }
     }
