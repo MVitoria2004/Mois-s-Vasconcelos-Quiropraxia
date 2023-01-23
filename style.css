@@ -64,7 +64,9 @@ main {
     .logo {
         width: 50%;
     }
-    .endereço{
+
+    .endereço {
         margin-top: 30px;
         width: 80vw;
+    }
     }
