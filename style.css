@@ -42,7 +42,7 @@ header {
 
 @media(max-width:390px) {
     .menuA {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .menu ul {
