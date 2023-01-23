@@ -40,6 +40,17 @@ header {
     align-items: center;
 }
 
+main {
+    width: 100%;
+    background-color: rgb(38, 37, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
 @media(max-width:390px) {
     .menuA {
         font-size: 10px;
@@ -49,7 +60,8 @@ header {
         display: flex;
         flex-direction: column;
     }
-    .logo{
+
+    .logo {
         width: 50%;
     }
 }
