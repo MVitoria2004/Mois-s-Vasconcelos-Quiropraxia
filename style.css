@@ -17,10 +17,11 @@ header {
 }
 
 .logo {
-    width: 35%;
+    width: 45%;
 }
 
 .menu ul {
+    border:solid 3px red;
     width: 100%;
     height: 20vw;
     list-style: none;
@@ -31,9 +32,10 @@ header {
 }
 
 .menuA {
-    width: 40vw;
+    
+    width: 100%;
     height: 10vh;
-    font-size: 100%;
+    font-size: 2rem;
     color: rgb(0, 197, 203);
     font-family: 'Roboto', sans-serif;
     display: flex;
